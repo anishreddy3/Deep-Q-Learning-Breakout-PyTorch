@@ -158,7 +158,7 @@ class Bricka:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     pygame.quit()
-                    sys.exit(0)
+                    sys.exit()
 
             self.clock.tick(50)
             self.screen.fill(BLACK)
@@ -187,7 +187,6 @@ class Bricka:
             self.show_stats()
 
             pygame.display.flip()
-        pygame.quit()
 
 
 if __name__ == "__main__":
