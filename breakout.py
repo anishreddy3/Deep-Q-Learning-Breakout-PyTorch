@@ -1,9 +1,4 @@
-"""
- bricka (a breakout clone)
- Developed by Leonel Machava <leonelmachava@gmail.com>
 
- http://codeNtronix.com
-"""
 import sys
 import pygame
 
@@ -36,7 +31,7 @@ STATE_PLAYING = 1
 STATE_WON = 2
 STATE_GAME_OVER = 3
 
-class Bricka:
+class Brick:
 
     def __init__(self):
         pygame.init()
