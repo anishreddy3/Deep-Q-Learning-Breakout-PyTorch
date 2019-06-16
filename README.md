@@ -1,3 +1,3 @@
-# Deep Reinforcement Learning approach to create an agent to play breakout game
+# Deep Reinforcement Learning approach to create an agent to solve Open AI's Mountain Car
 
 ## Implemented on PyTorch
